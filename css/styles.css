@@ -37,7 +37,7 @@ img{
 }
 .contenedor{
     max-width: 120rem;
-    margin: 1 auto;
+    margin: 0 auto;
 }
 h1,h2,h3{
     text-align: center;
