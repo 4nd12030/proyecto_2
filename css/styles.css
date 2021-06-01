@@ -37,7 +37,7 @@ img{
 }
 .contenedor{
     max-width: 120rem;
-    margin: 0 auto;
+    margin: 1 auto;
 }
 h1,h2,h3{
     text-align: center;
@@ -157,6 +157,10 @@ h3{
         column-gap: 2rem;
     } 
 }
+.nosotros__contenido{
+    margin: 1rem;
+    text-align: justify;
+}
 .nosotros__imagen{
     grid-row: 1/2;  
 }
@@ -188,17 +192,21 @@ h3{
 
 /*Pagina producto*/
 
+.camisa__contenido{
+    margin: 1rem;
+}
+
 @media (min-width: 768px) {
     .camisa {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
         gap: 2rem;        
     }        
 }
 .formulario{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
 }
 .formulario__campo{
    /* border-width: 1rem;
@@ -207,7 +215,8 @@ h3{
     border: 1rem solid var(--primarioOscuro);
     background-color: transparent;
     color: var(--blanco);
-    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
     appearance: none;
